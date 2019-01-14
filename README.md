@@ -19,3 +19,4 @@ Currently the server uses port 3000, just because I was trying random things. Ma
 ## Mongo DB
 This server uses Mongo DB.
 Follow the instructions on https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ to set up and run a Mongo DB.
+Then follow the instructions on https://ianlondon.github.io/blog/mongodb-auth/ to open the db up to external connections (if you want to, otherwise this as a standalone can just connect on localhost)

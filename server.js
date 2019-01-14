@@ -1,5 +1,10 @@
 const express = require("express");
 const mustacheExpress = require('mustache-express');
+const mongoose = require('mongoose');
+
+//Mongo DB
+mongoose.connect('mongodb://144.6.226.73:27017/myCoolDB', 
+	{ useNewUrlParser: true });
 
 const app = express();
 

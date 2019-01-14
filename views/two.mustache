@@ -1,5 +1,15 @@
 <html>
 	<body>
 		<a href="/">to index</a>
+		<form method="POST">
+			<input placeholder="title" name="title" />
+			<input placeholder="author" name="author" />
+			<input type="submit" />
+		</form>
+		<ul>
+			{{#books}}
+				<li>{{title}} by {{author}}</li>
+			{{/books}}
+		</ul>
 	</body>
 </html>

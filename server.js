@@ -12,6 +12,9 @@ mustache.cache = null; //not a good idea for production
 app.engine('mustache', mustache);
 app.set('view engine', 'mustache');
 
+//routing
+app.use(require('./routes/general'));
+
 const port = 3000;
 app.listen(port, function()
 {

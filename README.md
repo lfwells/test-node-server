@@ -15,3 +15,7 @@ node server
 
 ### Notes
 Currently the server uses port 3000, just because I was trying random things. Maybe one day I will make it use a customizable port (with a sensible default like 80!).
+
+## Mongo DB
+This server uses Mongo DB.
+Follow the instructions on https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ to set up and run a Mongo DB.
